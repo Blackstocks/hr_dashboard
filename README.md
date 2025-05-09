@@ -36,8 +36,8 @@ TalentHub is a comprehensive HR management platform designed to streamline recru
 
 1. Clone the repository:
    \`\`\`bash
-   git clone https://github.com/your-username/talenthub.git
-   cd talenthub
+   git clone https://github.com/Blackstocks/hr_dashboard
+   cd hr_dashboard
    \`\`\`
 
 2. Install dependencies:
@@ -47,32 +47,20 @@ TalentHub is a comprehensive HR management platform designed to streamline recru
    yarn install
    \`\`\`
 
-3. Set up environment variables:
-   Create a `.env.local` file in the root directory with the following variables:
-   \`\`\`
-   # API Keys for TTS/STT services
-   TTS_API_KEY=your_tts_api_key
-   STT_API_KEY=your_stt_api_key
-   
-   # Database connection (if applicable)
-   DATABASE_URL=your_database_connection_string
-   \`\`\`
-
-4. Run the development server:
+3. Run the development server:
    \`\`\`bash
    npm run dev
    # or
    yarn dev
    \`\`\`
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
 ## Project Structure
 
 \`\`\`
 talenthub/
 ├── app/                    # Next.js App Router structure
-│   ├── api/                # API routes for TTS/STT proxies
 │   ├── dashboard/          # Dashboard pages (jobs, candidates, insights)
 │   ├── register/           # User registration
 │   ├── globals.css         # Global styles
@@ -346,16 +334,6 @@ This project is configured for easy deployment on Vercel:
 3. Configure environment variables
 4. Deploy
 
-\`\`\`bash
-# Install Vercel CLI
-npm install -g vercel
-
-# Login to Vercel
-vercel login
-
-# Deploy to production
-vercel --prod
-\`\`\`
 
 ## Contributing
 
@@ -367,9 +345,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
@@ -379,4 +354,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-© 2025 TalentHub. All rights reserved.
+© 2025 Blackstocks. All rights reserved.
