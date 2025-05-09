@@ -55,6 +55,24 @@ TalentHub is a comprehensive HR management platform designed to streamline recru
    ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+   
+5. Backend to be run on port 2900. to run it enter the below comand inthe terminal
+
+- Create a virtual end (Optional)
+```bash
+python -m venv venv
+source venv/bin/activate 
+#   On Windows: venv\Scripts\activate
+```
+
+- Install dependencies
+```bash
+pip install -r requirements.txt
+```
+- Run the backend
+```bash
+uvicorn main:app --port 2900 --reload
+```
 
 ## Project Structure
 
